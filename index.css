@@ -1,0 +1,393 @@
+/*************************************************
+FONTS
+*************************************************/
+h2 {
+color: #545558!important;
+}
+
+#main_nav ul {
+    font-weight: 800;
+}
+
+/*************************************************
+Main nav menu - background color change to purple
+*************************************************/
+
+/*BACKGROUND COLOR CHANGE - BLUE*/
+.main_nav_wrapper {
+    	display: block !important;
+    	border-top: 0px;
+    	border-bottom: 0px;
+    	background-color: #0294CA;
+}
+
+
+/*LEARNING HUB HEADER TEXT & ALIGNMENT- WHITE*/
+.strapline h1{
+	color: #ffffff;
+	margin-left: -40%;
+}
+
+/*EXPLORE BUTTON - BACKGROUND DARK BLUE Margin right */
+.dropbtn {
+	background-color: #333;
+	margin-right: 10px;
+	font-weight: 500;
+}
+
+/*EXPLORE BUTTON HOVER- dark BLUE*/
+.dropbtn:hover, .dropbtn:focus {
+    	background-color: #111112;
+}
+
+
+/*MY COURSES TEXT COLOR CHANGE - WHITE */
+#main_nav .menu_link {
+	color: #ffffff;
+}
+
+/*MY COURSES BG COLOR ON HOVER - TRANSPARENT */
+#main_nav li:first-child .menu_link {
+        background-color: transparent;
+		font-weight: 800
+}
+
+/*MY COURSES TEXT COLOR CHANGE ON HOVER -  GREY */
+#main_nav li:first-child .menu_link:hover{
+	color: #111112;
+}
+
+/*REGISTER BUTTON - BACKGROUND BLUE */
+.cmregister {
+	background-color: transparent;
+}
+
+/*REGISTER BUTTON ON HOVER - REMOVE PURPLE BOX & GREY TEXT ON HOVER */
+.cmregister:hover{
+	color: #111112;
+	background-color: transparent
+}
+
+/*LOGIN TEXT COLOR - WHITE*/
+.cmlink p a {
+    color: #ffffff;
+}
+
+/*LOGIN & REGISTER LINK ON HOVER - GREY*/
+.cmlink a:hover {
+    color: #111112!important;
+}
+
+
+/*************************************************
+TOP RATED COURSES - ADD TO BASKET BUTONS
+*************************************************/
+
+/*ADD TO BASKET BUTTONS ON HOVER - GREY*/
+.product-list-cell-add-to-cart .orderbutton:hover, .formbutton:hover {
+	background-color: #00AEEF;
+}
+
+/*************************************************
+Carousel
+*************************************************/
+html,
+body {
+ 	font-family: 'FrutigerLTW01-55Roman', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+}
+
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.content-slider {
+ 	width: 100%;
+ 	height: 380px;
+	margin-left:-15%;	
+}
+
+
+/*Slider to fit in alignment with table*/
+.content-slider {
+	margin-top:-190px;
+}
+
+.slider {
+  height: 400px;
+  width: 70%;
+  margin: 40px auto 0;
+  overflow: visible;
+  position:
+	
+}
+
+.mask {
+  overflow: hidden;
+  height: 420px;
+}
+
+.slider ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.slider li {
+  width: 70%;
+  height: 320px;
+  position: absolute;
+  top: -325px;
+  list-style: none;
+}
+
+.slider .quote {
+  font-size: 1.6rem;
+  
+}
+
+.slider .source {
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.slider li.anim1 {
+  animation: cycle 30s linear infinite;
+}
+
+.slider li.anim2 {
+  animation: cycle2 30s linear infinite;
+}
+
+.slider li.anim3 {
+  animation: cycle3 30s linear infinite;
+}
+
+.slider li.anim4 {
+  animation: cycle4 30s linear infinite;
+}
+
+.slider li.anim5 {
+  animation: cycle5 30s linear infinite;
+}
+
+.slider:hover li {
+  animation-play-state: paused;
+}
+
+@keyframes cycle {
+  0% {
+    top: 0px;
+  }
+  4% {
+    top: 0px;
+  }
+  16% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  20% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  21% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  50% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  92% {
+    top: -325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  96% {
+    top: -325px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes cycle2 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  16% {
+    top: -325px;
+    opacity: 0;
+  }
+  20% {
+    top: 0px;
+    opacity: 1;
+  }
+  24% {
+    top: 0px;
+    opacity: 1;
+  }
+  36% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  40% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  41% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle3 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  36% {
+    top: -325px;
+    opacity: 0;
+  }
+  40% {
+    top: 0px;
+    opacity: 1;
+  }
+  44% {
+    top: 0px;
+    opacity: 1;
+  }
+  56% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  60% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  61% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle4 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  56% {
+    top: -325px;
+    opacity: 0;
+  }
+  60% {
+    top: 0px;
+    opacity: 1;
+  }
+  64% {
+    top: 0px;
+    opacity: 1;
+  }
+  76% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  80% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  81% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes cycle5 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  76% {
+    top: -325px;
+    opacity: 0;
+  }
+  80% {
+    top: 0px;
+    opacity: 1;
+  }
+  84% {
+    top: 0px;800px
+    opacity: 1;
+  }
+  96% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  100% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+}
+
+
+
+
+
+
+/*************************************************
+Footer
+*************************************************/
+
+/*FOOTER BG STRIP - BLUE*/
+#footer_menu{
+	background-color: #0294CA;
+}
+
+#footer_menu_wrapper{
+	background-color: #0294ca;
+}
+
+/*FOOTER TEXT - WHITE*/
+.footer_menu_link{
+	color: #ffffff;
+}
+
+/*FOOTER TEXT ON HOVER - GREY*/
+.footer_menu_link:hover{
+	color: #111112;
+}
